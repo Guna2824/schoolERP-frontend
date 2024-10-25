@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Controler from './contorler/Controler'
+// import Slider from './Slider'
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Slider />
+      <div className='flex flex-row justify-around '>
+        <button className='px-4 py-2 border-2 focus:border-[#8b1010] focus:bg-[#ad8080] hover:bg-white hover:text-[#8b1010] bg-[#8b1010] text-white font-semibold rounded-md shadow-md transition-colors duration-300 ease-linear ' >PRESS RELEASE</button>
+        <button className='px-4 py-2 border-2 focus:border-[#8b1010] focus:bg-[#ad8080] hover:bg-white hover:text-[#8b1010] bg-[#8b1010] text-white font-semibold rounded-md shadow-md transition-colors duration-300 ease-linear ' >SCHOOL HISTORY</button>
+      </div> */}
+
+        <Controler />
+
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
